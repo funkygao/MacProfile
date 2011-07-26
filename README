@@ -7,7 +7,7 @@ Contents
 ========
 profile
 vim
-rc.scripts
+scripts
 cmd.txt
 
 virtualenv: easy_install virtualenv
