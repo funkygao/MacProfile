@@ -1,0 +1,80 @@
+===============================
+=  cmd's
+===============================
+graphite
+sudo easy_install Sphinx  #javadoc of python
+dig ns.oreilly.com www.oreilly.com any
+dig google.com a +trace
+bzr branch lp:tcprstat
+tcpdstat
+tcpdump -i en1
+tcpdump -i en1 host www.dongao.com and port 80
+mate filename
+/usr/sbin/ss -s  (socket stat)
+nc (net cat)
+
+
+sudo port install apachetop
+sudo port install cacti
+
+===============================
+=  MacPorts
+===============================
+port -d selfupdate
+port search mysql
+sudo port -v install mysql5 +server
+port uninstall mysql5
+port contents mysql5
+port installed
+port list
+
+===============================
+=  mac os
+===============================
+launchctl
+/usr/bin/defaults
+
+===============================
+=  mysql5
+===============================
+sudo port load mysql5-server
+sudo -u _mysql mysql_install_db5
+/opt/local/share/mysql5/mysql/mysql.server start
+sudo /opt/local/lib/mysql5/bin/mysqld_safe &
+/opt/local/libexec/mysqld --skip-grant &
+
+
+===============================
+=  apache php
+===============================
+/etc/apache2/httpd.conf
+/etc/php.ini
+
+===============================
+=  ruby on rails
+===============================
+work>rails demo
+demo>ruby script/server  # use built-in WEBrick server
+lynx http://localhost:3000/
+gem list
+gem list --local
+rake = ant
+
+
+===============================
+=  perl
+===============================
+cpan
+
+===============================
+=  sysbench
+===============================
+sysbench --test=cpu --cpu-max-prime=2000 run
+sysbench --test=threads --num-threads=64 --thread-yields=100 --thread-locks=2 run
+sysbench --test=fileio --num-threads=16 --file-total-size=300M --file-test-mode=rndrw run
+sysbench --test=fileio --num-threads=16 --file-total-size=300M --file-test-mode=rndrw cleanup
+sysbench --test=mutex --num-threads=16 --mutex-num=1024 --mutex-locks=10000 --mutex-loops=5000 run
+sysbench --test=memory --num-threads=16 --memory-block-size=8192 --memory-total-size=1G run
+sysbench --test=oltp --mysql-table-engine=myisam --oltp-table-size=1000000 --mysql-user=root --mysql-socket=/tmp/mysql.sock prepare
+sysbench --test=oltp --mysql-table-engine=myisam --oltp-table-size=1000000 --mysql-user=root --mysql-socket=/tmp/mysql.sock run
+sysbench --test=oltp --mysql-table-engine=myisam --oltp-table-size=1000000 --mysql-user=root --mysql-socket=/tmp/mysql.sock cleanup

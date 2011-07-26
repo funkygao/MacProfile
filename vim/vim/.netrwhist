@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/apple/scripts/pytools'
+let g:netrw_dirhist_2='/Users/apple/devs/python/flask/flask'
+let g:netrw_dirhist_3='/Users/apple/devs/python/project/oil/tests'
+let g:netrw_dirhist_4='/Users/apple/devs/python/project/oil/.git'
+let g:netrw_dirhist_5='/Users/apple/devs/python/reddit/r2/ez_setup'
+let g:netrw_dirhist_6='/Users/apple/tmp/pyflakes-0.4.0/pyflakes/test'

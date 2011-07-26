@@ -1,0 +1,13 @@
+MacProfile
+++++++++++
+
+我的iMac上的运行环境
+
+Contents
+========
+profile
+vim
+rc.scripts
+cmd.txt
+
+virtualenv: easy_install virtualenv
