@@ -3,7 +3,7 @@
 
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
-alias db='mysql -u root -h localhost wordpress'
+alias db='mysql -u root -h localhost demos'
 alias tcpstat='sudo tcpstat -i en1'
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias ldd='otool -L'
@@ -11,6 +11,7 @@ alias bsh='java bsh.Console'
 alias hfs='hadoop fs'
 alias me='cd ~/github/WebMe/webme/'
 alias vp='source ~/vpython/bin/activate'
+alias wgetr='wget -l1 --random-wait -r -p -e robots=off -U chrome'
 
 alias github='git push origin master'
 
@@ -28,7 +29,6 @@ alias ll='ls -aF'
 alias dir='ls -F|grep /'
 alias ml='tail -f /var/log/mail.log'
 
-alias go='cd ~/devs/theweb3'
 alias a='cd /Library/WebServer/Documents/'
 alias ws='cd ~/devs/java/workspace'
 alias d='cd ~/devs/'
